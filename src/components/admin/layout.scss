@@ -1,0 +1,52 @@
+.admin-layout {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(10px, 190px) 1fr;
+
+  &__content {
+    background: #F7F8FC;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  }
+}
+
+.sidebar {
+  display: flex;
+  justify-content: center;
+  background: #363740;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    list-style-type: none;
+    & li:last-child {
+      margin-top: 20px;
+    }
+    li {
+      display: flex;
+      align-items: center;
+      :last-child {
+        margin-left: 10px;
+      }
+
+    }
+
+  }
+  a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* identical to box height */
+    letter-spacing: 0.2px;
+
+    /* accent / light */
+    color: #DDE2FF;
+  }
+}

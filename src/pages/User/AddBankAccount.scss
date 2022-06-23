@@ -1,0 +1,22 @@
+.add-bank-account {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+
+    &__field {
+        background-color: #F4F5F7;
+        outline: none;
+        border: none;
+        border-radius: 38px;
+        padding: 16px;
+        width: 100%;
+        margin-top: 18px;
+    }
+
+    &__button {
+        margin-top: 20px;
+    }
+
+}
+

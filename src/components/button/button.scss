@@ -1,0 +1,29 @@
+.button {
+  height: 48px;
+
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 23px;
+  border: none;
+
+  cursor: pointer;
+  color: #ffffff;
+
+  &--primary {
+    background: #000000;
+    border: 0.6px solid #8e8383;
+  }
+
+  &--secondary {
+    background: #0052CC;
+    
+  }
+  &--rounded {
+    border-radius: 38px;
+  }
+
+  &--full {
+    width: 100%;
+  }
+}

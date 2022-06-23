@@ -1,0 +1,53 @@
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+
+  &__text {
+    font-size: 2rem;
+  }
+  &__chart {
+    width:50vw;
+    margin-bottom: 100px;
+  }
+
+  &__table {
+
+  }
+}
+.user-table {
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  min-width: 50vw;
+  thead {
+    background: black;
+    height: 40px;
+  }
+
+  th,td {
+    line-height: 18px;
+
+    letter-spacing: 0.2px;
+  }
+  th {
+    text-align: left;
+    border-bottom: 1.5px solid #DFE0EB;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px;
+
+    color: white;
+  }
+
+  td {
+    font-size: 1.3rem;
+
+    padding:10px;
+  }
+
+  &__delete {
+    cursor: pointer;
+  }
+}

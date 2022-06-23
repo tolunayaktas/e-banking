@@ -1,0 +1,45 @@
+.accounts {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    &__card {
+        overflow-x: auto;
+        max-width: 1000px;
+    }
+}
+
+.accounts-table {
+    border-collapse: collapse;
+    min-width: 750px;
+    text-align: center;
+    
+    font-size: 1.2rem;
+    thead {
+        tr {
+            th {
+                color: #8A94A5;
+            }
+        }
+    } 
+
+    &__body {
+        tr{
+            
+            border-top: 2px solid #F4F5F7;
+           td {
+               padding: 20px 0 20px 0;
+               color: #43536E;
+               font-weight: bold;
+               
+           }
+        }
+    }
+    &__spacing-body {
+        height: 40px;
+    }
+    &__copy-icon {
+        margin-left: 5px;
+    }
+}
